@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(90deg, #000, #3533cd);
+    font-family: 'Open sans', sans-serif;
+    font-weight: 300;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    box-shadow: 0 2px 3px lightgray;
+    position: static;
+}
+
+header img {
+    padding-left: 10px;
+}
+
+header nav {
+    display: flex;
+    flex-grow: 1;
+    padding: 20px;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header nav a {
+    text-decoration: none;
+    margin: 10px;
+    font-size: 1em;
+    color: black;
+}
+
+header nav a:hover {
+    color: gray;
+}
+
+.pag1 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    color: white;
+    height: 80vh;
+    width: 100%;
+}
+
+.pag1 h1 {
+    font-size: 5em;
+    padding: 30px;
+    width: 60%;
+    text-align: left;
+    font-weight: 300;
+}
+
+.pag1 div {
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.pag1 a {
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(158,216,97);
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.pag1 a:hover {
+    background-color: rgb(99, 216, 97);
+}
+
+.pag1 span {
+    font-weight: 600;
+}
+
+.pag1 p {
+    font-size: 32px;
+    text-align: center;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.pag2 {
+    background: linear-gradient(90deg, #a6a6a6, #fff);
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    color: black;
+}
+
+.pag2 h2 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.pag2 .destaque {
+    color: #3533cd;
+}
+
+.pag2 .content {
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.pag2 .quadro {
+    display: flex;
+    flex-flow: column nowrap;
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 0 4px rgba(0,0,0,0.5);
+}
+
+.pag2 h3 {
+    margin: 20px;
+    text-align: center;
+}
+
+.pag2 p {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.pag2 a {
+    background-color: rgb(158,216,97);
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.pag2 a:hover {
+    background-color: rgb(99, 216, 97);
+}
+
+footer {
+    background-color: white;
+    color: #737373;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 30px;
+    height: 100px;
+}
+
+footer p {
+    font-size: 0.8em;
+}
+
+footer img {
+    width: 30px;
+    margin: 10px;
+}
